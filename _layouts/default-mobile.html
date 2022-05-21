@@ -2,13 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <!--<title>{{ page.title }}</title>-->
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-    <div id="site-wrapper">
-      {% include navigation.html %}
-      <div class="main">
+    <div class="site-wrapper-mobile">
+      {% include navigation-mobile.html %}
+      <div class="main-mobile">
         {{ content }}
       </div>
     </div>
@@ -19,8 +19,9 @@
       return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     }
     if (isMobile()) {
-      //redirect to mobile site
-      window.location.replace("/index-mobile")
+      //do nothing
+    } else {
+      window.location.replace("/index");
     }
   </script>
 

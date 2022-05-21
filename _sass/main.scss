@@ -1,22 +1,25 @@
+body {
+    margin: 10px;
+    height: 100%;
+    
+}
+
 .main {
-    height: 360px;
-    width: 250px;
-    margin-left: 175px;
-    margin-top: 20px;
-    padding: 0px 5px;
+    width: 210px;
+    height: 364px;
+    padding: 0px 0px 0px 12px;
+    position: relative;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-size: 14px;
     color: gray;
     display: block;
+    float: left;
 }
 
 .main a {
-    margin-left: 0px;
-    margin-top: 0px;
-    padding: 0px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-size: 14px;
     color: #1f1f1f;
     display: inline;
@@ -28,17 +31,19 @@
 
 .post {
     height: 100%;
-    width: 500px;
-    margin-left: 175px;
-    margin-top: 6px;
-    padding: 0px 5px;
-    position: fixed;
+    width: 600px; 
+    padding: 10px 30px 20px 30px;
+    margin-left: 10px;
+    position: relative;
+    float: left;
     overflow-x: hidden;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-size: 14px;
     color: #1f1f1f;
+    background-color: #eef4fb;
     display: block;
+    line-height: 1.2em;
 }
 
 .post h3 {
@@ -48,25 +53,22 @@
 }
 
 .post p {
-    line-height: 120%;
+    line-height: 110%;
 }
 
 .sidenav {
-    height: 380px;
-    width: 170px;
-    margin-left: 5px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
+    height: 364px;
+    width: 156px;
+    position: relative;
     overflow-x: hidden;
+    float: left;
   }
 
 .sidenav h1 {
-    padding: 12px 8px 2px 25px; /* top right bottom left */
+    padding: 12px 8px 2px 18px; /* top right bottom left */
     margin: 0px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-size: 14px;
     color: gray;
     display: block;
@@ -79,19 +81,19 @@
 }
 
 .sidenav h2 {
-    padding: 2px 8px 2px 25px; /* top right bottom left */
+    padding: 2px 8px 2px 18px; /* top right bottom left */
     margin: 0px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-size: 16px;
     color: #1f1f1f;
     display: block;
 }
   
 .sidenav a {
-    padding: 2px 8px 2px 25px; /* top right bottom left */
+    padding: 2px 8px 2px 18px; /* top right bottom left */
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-size: 13px;
     color: #1f1f1f;
     display: block;
@@ -104,18 +106,101 @@
 #sidenav-icon {
     width: 140px; 
     height: 140px;
-    padding: 25px 10px 5px 15px;
+    padding: 12px 10px 5px 8px;
 }
 
 #sidenav-title {
     padding: 15px 0px 15px 0px; /* top right bottom left */
 }
 
-.center {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    }
+// Mobile style
+.site-wrapper-mobile {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+}
+
+.main-mobile {
+    padding: 0px 14% 0px 16%;
+    margin-bottom: 150px;
+    position: relative;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 35px;
+    color: gray;
+    display: block;
+}
+
+.main-mobile a {
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 35px;
+    color: #1f1f1f;
+    display: inline;
+}
+
+.sidenav-mobile {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    float: left;
+    text-align: center;
+    z-index: 2;
+}
+
+.sidenav-mobile h1 {
+    padding: 30px 0px 20px 0px; /* top right bottom left */
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 40px;
+    color: gray;
+    display: block;
+}
+
+.sidenav-mobile h1 a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.sidenav-mobile h2 {
+    padding: 2px 0px 2px 0px; /* top right bottom left */
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 60px;
+    color: #1f1f1f;
+    display: block;
+}
+
+.sidenav-linkcontainer-mobile {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 50px 50px 50px 50px;
+    background-color: #eef4fb;
+    position: relative;
+}
+
+.sidenav-linkcontainer-mobile a {
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #1f1f1f;
+    display: block;
+    line-height: 1.8em;
+}
+
+.sidenav-icon-mobile {
+    width: 400px; 
+    height: 400px;
+    padding: 50px 0px 10px 0px;
+}
 
