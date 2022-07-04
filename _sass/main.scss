@@ -75,8 +75,26 @@ body {
     text-decoration: underline;
 }
 
+hr {
+    border-top: 2px dotted gray;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 20px 0px 20px 0px;
+}
+
+.block-quote {
+  border-left: 2px solid gray;
+  margin: 20px 0px 20px 0px;
+  padding: 0px 5px 0px 10px;
+  color: gray;
+}
+
 .footer {
-    height: 40px;
+    width: 600px;
+    height: 60px;
+    display: block;
+    float: left;
 }
 
 .attribution {
