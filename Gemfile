@@ -39,3 +39,5 @@ gem "webrick", "~> 1.7"
 
 #gem "jekyll-sass-converter", "~> 1.5.2"
 #gem "kramdown", "~> 2.3.2"
+
+gem 'jekyll-seo-tag'

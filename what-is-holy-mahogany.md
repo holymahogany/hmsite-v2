@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Holy Mahogany?
+title: What is holy mahogany?
 ---
-### Holy Mahogany?
+### What is holy mahogany?
 
 László Moholy-Nagy (b. 1895 in Hungary, pictured below c. 1937 in Chicago) is a modern artist who's remembered today for his success not in one but many fields of art and design. He produced expert-level work in traditions as varied as painting, black-and-white and color photography, ad design, stage design, typography, and sculpture. But his most lasting contribution to the arts &mdash; in my opinion &mdash; was his teaching. He held an important position in the German Bauhaus (a small but influential school of modern art and design, est. 1919, forced to close by the Nazis in 1933), opened his own Bauhaus in Chicago (which, beset by crises of patronage, changed its name and location a half-dozen times), and authored a handful of ambitious art and design textbooks.
 
