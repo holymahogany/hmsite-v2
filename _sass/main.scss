@@ -107,7 +107,7 @@ hr {
 
 .sidenav {
     width: 156px;
-    height: 364px;
+    height: 500px;
     margin-left: 17px;
     position: relative;
     overflow-x: hidden;
@@ -151,6 +151,15 @@ hr {
   
 .sidenav a:hover {
     text-decoration: underline;
+}
+
+.sidenav hr {
+    border-top: 2px dotted gray;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 0px 20px 15px 17px;
+    
 }
 
 #sidenav-icon {

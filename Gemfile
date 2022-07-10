@@ -41,3 +41,4 @@ gem "webrick", "~> 1.7"
 #gem "kramdown", "~> 2.3.2"
 
 gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
