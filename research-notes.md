@@ -9,6 +9,4 @@ I'm putting my research notes on my site because I wish more of this kind of res
 
 <hr>
 
-Coming soon.
-
-<!-- <a href="/research-notes/the-civilization-of-spectacle">Mario Vargas Llosa. <i>La civilización del espectáculo</i> (The Civilization of Spectacle, 2012).</a> -->
+<a href="/research-notes/the-civilization-of-spectacle">Mario Vargas Llosa. <i>La civilización del espectáculo</i> (The Civilization of Spectacle, 2012).</a>
