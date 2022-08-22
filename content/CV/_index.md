@@ -63,15 +63,23 @@ The essay above is my first academic publication. My work has also appeared in <
       <li>Research interests: modernist literature, structuralist linguistics, and narratology</li>
     </ul>
 </div>
-{{ 
-  card(
-    fa_classes="fa-solid fa-graduation-cap", 
-    title="B.F.A.", 
-    date="2018", 
-    publisher="School of the Art Institute of Chicago",
-    bullets=["Research interests: alternative comics, indie videogames, and illustration"]
-  ) 
-}}
+<div class="card">
+    <table>
+        <td class="flex-y"><i class="fa-solid fa-graduation-cap"></i></td>
+      <td>
+        <div class="card-title">
+          B.F.A.
+        </div>
+        <div class="card-date">
+          2018 • School of the Art Institute of Chicago
+        </div>
+      </td>
+    </table>
+    <hr>
+    <ul>
+      <li>Research interests: alternative comics, indie videogames, and illustration</li>
+    </ul>
+</div>
 
 <div style="width: auto; height: 15px;"></div>
 <hr>
