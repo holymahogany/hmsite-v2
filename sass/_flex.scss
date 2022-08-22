@@ -1,0 +1,38 @@
+.flex-x {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex-y {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fill {
+    flex: 1;
+  }
+  
+  .center-x {
+    text-align: center !important;
+  }
+  
+  .center-y {
+    @extend .flex-y;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .center {
+    @extend .center-x;
+    @extend .center-y;
+  }
+  
+  .bottom {
+    @extend .flex-y;
+    justify-content: flex-end;
+    align-content: flex-end;
+  }
+  
+  .right {
+    text-align: right !important;
+  }

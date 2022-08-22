@@ -1,0 +1,49 @@
+<div class="card">
+    <table>
+        {% if fa_classes %}<td class="flex-y"><i class="{{fa_classes}}"></i></td>{% endif %}
+      <td>
+        <div class="card-title">
+          {{title}}{% if title_italics %}<em> {{title_italics}}</em>{% endif %}
+        </div>
+        <div class="card-date">
+          {{date}} • {{publisher}}
+        </div>
+      </td>
+    </table>
+    {% if description or bullets %}
+        <hr>
+        {% if description %}<div class="card-desc"> {{description}} </div>{% endif %}
+        {% if bullets %} 
+            <ul>
+            {% for bullet in bullets %}
+                <li>{{bullet}}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+        <div class="flex-x">
+            {% if link1_text %}<a class="card-link" href="{{link1_href}}">{{link1_text}}</a>{% endif %}
+            {% if link2_text %}<a class="card-link" href="{{link2_href}}">{{link2_text}}</a>{% endif %}
+            {% if link3_text %}<a class="card-link" href="{{link3_href}}">{{link3_text}}</a>{% endif %}
+            {% if pdf %}<a class="card-link" href="{{pdf_href}}"><i class="fa-solid fa-file-pdf"></i> Download PDF</a>{% endif %}
+            
+        </div>
+    {% endif %}
+</div>
+
+<!-- variables are all strings, except when noted otherwise -->
+<!--
+fa_classes
+title
+date
+publisher
+description
+link1_text
+link2_text
+link3_text
+pdf (bool)
+link1_href
+link2_href
+link3_href
+pdf_href
+bullets (array)
+-->

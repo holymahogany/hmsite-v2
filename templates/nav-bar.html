@@ -1,0 +1,27 @@
+<div class="navbar-brand flex-x">
+    <i class="nav-brand-icon fa-solid fa-book-bookmark"></i>
+    {% set sect = get_section(path="_index.md") %}
+    {% if current_path == sect.path %}
+        {% set selected = "underline selected" %}
+    {% else %}
+        {% set selected = "" %}
+    {% endif %}
+    <a href="{{ sect.permalink }}" class="nav-brand-link {{ selected }}">
+        <div>{{ sect.title }}</div>
+    </a>
+</div>
+<div class="external-links flex-x">
+    {% for sect_name in sect.subsections %}
+        {% set sect = get_section(path=sect_name) %}
+        {% if current_path == sect.path %}
+            {% set selected = "underline selected" %}
+        {% elif sect.path in current_path %}
+            {% set selected = "underline" %}
+        {% else %}
+            {% set selected = "" %}
+        {% endif %}
+        <a href="{{ sect.permalink }}" class="nav-link {{ selected }}">
+            <div>{{ sect.title }}</div>
+        </a>
+    {% endfor %}
+</div>
