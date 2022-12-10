@@ -25,16 +25,14 @@ banner2 = "Information about my publications, my education, and my teaching."
     </table>
         <hr>
         <div class="card-desc">I remember reading Calvino's <em>Castle</em> for the first time and thinking that it felt like a cross between a novel and a graphic novel. As it turns out, the novel has a clear precedent in the weird tradition of Italian newspaper comics. It seemed that nobody had explored the connection, so I wrote this essay to fill the gap in scholarship. The whole thing makes for an interesting bit of art-historical literary criticism, whether or not you've read the book.</div>
-        <div class="flex-x">
+        <!--<div class="flex-x">
             <div class="card-link-placeholder" href="">Coming soon!</div>
-        </div>
-        <!-- placeholder for links when the essay is published
+        </div>-->
         <div class="flex-x">
-            <a class="card-link" href="">Read on this site</a>
-            <a class="card-link" href="">Read on publisher's site</a>
-            <a class="card-link" href=""><i class="fa-solid fa-file-pdf"></i> Download PDF</a>
+            <!--<a class="card-link" href="">Read on this site</a>-->
+            <a class="card-link" href="https://read.dukeupress.edu/poetics-today/article-abstract/43/3/533/317591/Mixing-Comics-and-Literature-in-Calvino-s-Castle?redirectedFrom=fulltext">Read on publisher's site</a>
+            <a class="card-link" href="https://drive.google.com/file/d/1OGU6U76lT71FYtBPnAK7n6DZjq2VM4vf/view?usp=sharing"><i class="fa-solid fa-file-pdf"></i> Download PDF</a>
         </div>
-        -->
 </div>
 
 <div style="width: auto; height: 10px;"></div>

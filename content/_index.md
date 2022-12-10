@@ -11,7 +11,7 @@ page_template = "blog-page.html"
     <div class="landing-icon-single-container flex-y">
         <div class="landing-icon-picture-container flex-x">
             <div class="landing-icon-picture-spacer"></div>
-            <img class="landing-icon-picture" src="https://images2.imgbox.com/40/3b/TQvDO9gi_o.png" alt="image host"/>
+            <img class="landing-icon-picture" src="https://drive.google.com/uc?id=1gvZq2-thHxaxbYiH-JQGPFn97Ird6aGL" alt="image host"/>
             <div class="landing-icon-picture-spacer"></div>
         </div>
         <div class="landing-icon-header">Academics</div>
@@ -20,7 +20,7 @@ page_template = "blog-page.html"
     <div class="landing-icon-single-container flex-y">
         <div class="landing-icon-picture-container flex-x">
             <div class="landing-icon-picture-spacer"></div>
-            <img class="landing-icon-picture" src="https://images2.imgbox.com/28/4b/pX0xnNWl_o.png" alt="image host"/>
+            <img class="landing-icon-picture" src="https://drive.google.com/uc?id=1QV1ZIU1rLvn6MPDSBSH-mriBLH_m5IAJ" alt="image host"/>
             <div class="landing-icon-picture-spacer"></div>
         </div>
         <div class="landing-icon-header">Art Practice</div>
@@ -29,7 +29,7 @@ page_template = "blog-page.html"
     <div class="landing-icon-single-container flex-y">
         <div class="landing-icon-picture-container flex-x">
             <div class="landing-icon-picture-spacer"></div>
-            <img class="landing-icon-picture" src="https://images2.imgbox.com/2b/3a/HZpt1Nzy_o.png" alt="image host"/>
+            <img class="landing-icon-picture" src="https://drive.google.com/uc?id=1tzHgkeHVElO65EBYEVg3Rx_cBgc_n-ZO" alt="image host"/>
             <div class="landing-icon-picture-spacer"></div>
         </div>
         <div class="landing-icon-header">About Me</div>
